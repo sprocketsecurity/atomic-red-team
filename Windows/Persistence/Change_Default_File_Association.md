@@ -8,6 +8,6 @@ MITRE ATT&CK Technique: [T1042](https://attack.mitre.org/wiki/Technique/T1042)
 
 Changes to a user's preference will occur under this entry's subkeys.
 
-## Change association with assoc.exe
+## Change open program with ftype
 
-    cmd.exe assoc .wav="C:\Program Files\Windows Media Player\wmplayer.exe"
+    ftype txtfile="C:\windows\system32\cmd.exe"
